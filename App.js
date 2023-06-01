@@ -27,6 +27,4 @@ export default function App() {
       fontSize: 48,
       
     }
-
-
   });
