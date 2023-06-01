@@ -6,9 +6,7 @@ import C1 from './components/comp1';
 export default function App() {
   return (
     <View style={estilos.container}>
-      <C1/>
-      <C1/>
-      <Text style={estilos.txt1}> não</Text>
+      <Text style={estilos.txt1}>Crie sua conta</Text>
     </View>
 );
 
@@ -17,14 +15,12 @@ export default function App() {
   const estilos= StyleSheet.create({
     container:{
       flex:1,
-      backgroundColor: '#435570',
-      alignItems: 'center',
-      justifyContent: 'center'
+      backgroundColor: '#f2f2f2',
     },
 
     txt1:{
-      color: '#4287f5',
-      fontSize: 48,
-      
+      color: '#563595',
+      fontSize: 32,
+      fontFamily: 'GothicA1-Black',
     }
   });
