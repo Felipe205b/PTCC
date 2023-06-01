@@ -8,7 +8,7 @@ export default function App() {
     <View style={estilos.container}>
       <C1/>
       <C1/>
-      <Text style={estilos.txt1}> STEIN</Text>
+      <Text style={estilos.txt1}> não</Text>
     </View>
 );
 
